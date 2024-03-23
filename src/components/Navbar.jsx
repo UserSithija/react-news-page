@@ -22,7 +22,7 @@ const Navbar = () => {
   ));
 
   return (
-    <nav className="fixed relative top-0 w-full h-auto mt-4 flex justify-between items-center sm:mt-0 lg:mt-8">
+    <nav className="fixed  top-0 w-full h-auto mt-4 flex justify-between items-center sm:mt-0 lg:mt-8">
       <div className={`flex  justify-center items-center w-1/6   sm:h-24`}>
         <img src={logo} alt="" />
       </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
       <span className="hidden  bg-white  lg:block md:w-2/6 h-[1px]"></span>
       {/* links */}
       <div
-        className={`hidden sm:w-4/6 justify-between  items-center capitalize  ${glassBackground} h-24 px-8 sm:flex lg:w-3/6`}
+        className={`hidden sm:w-4/6 justify-between  items-center capitalize font-Barlow ${glassBackground} h-24 px-8 sm:flex lg:w-3/6`}
       >
         {navlinkElements}
       </div>

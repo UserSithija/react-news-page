@@ -8,6 +8,15 @@ export default {
         light: "#fffff",
         semiText: "#D0D6F9",
       },
+      backgroundImage: {
+        homeBgDesktop: "url('src/assets/home/background-home-desktop.jpg')",
+        homeBgTablet: "url('src/assets/home/background-home-tablet.jpg')",
+        homeBgMobile: "url('src/assets/home/background-home-mobile.jpg')",
+      },
+      fontFamily: {
+        Bellefair: "Bellefair, serif",
+        Barlow: "Barlow Condensed, sans-serif",
+      },
     },
   },
   plugins: [],

@@ -6,8 +6,6 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      {/* space */}
-      <div className="mt-28"> </div>
       <Outlet />
     </>
   );
