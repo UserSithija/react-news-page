@@ -15,7 +15,7 @@
     @apply font-Bellefair;
   }
   h1 {
-    @apply text-9xl;
+    @apply text-9xl md:text-8xl lg:text-9xl;
   }
   h2 {
     @apply text-8xl;
@@ -27,6 +27,6 @@
     @apply text-3xl;
   }
   h5 {
-    @apply font-Barlow text-3xl;
+    @apply font-Barlow text-2xl md:text-2xl lg:text-3xl;
   }
 }
