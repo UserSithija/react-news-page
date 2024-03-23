@@ -11,8 +11,8 @@ export default {
       },
       backgroundImage: {
         homeBgDesktop: "url('../src/assets/home/background-home-desktop.jpg')",
-        homeBgTablet: "url('./src/assets/home/background-home-tablet.jpg')",
-        homeBgMobile: "url('./src/assets/home/background-home-mobile.jpg')",
+        homeBgTablet: "url('../src/assets/home/background-home-tablet.jpg')",
+        homeBgMobile: "url('../src/assets/home/background-home-mobile.jpg')",
       },
       fontFamily: {
         Bellefair: "Bellefair, serif",
