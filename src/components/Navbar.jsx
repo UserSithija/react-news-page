@@ -28,13 +28,9 @@ const Navbar = () => {
       </div>
       <button
         onClick={() => setIsSidebarOpen((prev) => !prev)}
-        className="block sm:hidden p-4"
+        className="block sm:hidden p-4 relative z-40"
       >
-        <img
-          className=" relative z-40"
-          src={isSidebarOpen ? close : hamburger}
-          alt=""
-        />
+        <img className="" src={isSidebarOpen ? close : hamburger} alt="" />
       </button>
       <Sidebar
         isOpen={isSidebarOpen}
@@ -55,7 +51,7 @@ const Navbar = () => {
 const Sidebar = ({ isOpen, navlinkElements, glassBackground }) => {
   return (
     <aside
-      className={`fixed top-0 right-0 w-[60vw] h-screen ${glassBackground} ${
+      className={`fixed top-0 right-0 w-[60vw] h-screen z-30 ${glassBackground} ${
         isOpen ? "translate-x-0 " : "translate-x-full "
       } duration-300 ease-in-out transition  sm:hidden`}
     >
